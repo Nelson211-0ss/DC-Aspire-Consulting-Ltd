@@ -17,14 +17,31 @@
 
 
     // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 45) {
+    var setNavbarSticky = function () {
+        if ($(window).scrollTop() > 45 || window.matchMedia('(max-width: 991.98px)').matches) {
             $('.navbar').addClass('sticky-top shadow-sm');
         } else {
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
-    });
-    
+    };
+
+    setNavbarSticky();
+    $(window).scroll(setNavbarSticky);
+    $(window).on('resize', setNavbarSticky);
+
+
+    // Hero carousel – auto-slide content descriptions
+    var heroCarouselEl = document.getElementById('heroCarousel');
+    if (heroCarouselEl && typeof bootstrap !== 'undefined') {
+        var heroCarousel = bootstrap.Carousel.getOrCreateInstance(heroCarouselEl, {
+            interval: 5000,
+            ride: 'carousel',
+            wrap: true,
+            pause: false,
+            touch: true
+        });
+        heroCarousel.cycle();
+    }
     
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
