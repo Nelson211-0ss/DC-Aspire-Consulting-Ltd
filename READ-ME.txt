@@ -36,9 +36,9 @@
   DESIGN & THEME
 --------------------------------------------------------------------------------
 
-  Primary Color    : #E65100 (Deep Orange)
-  Secondary Color  : #FF9800 (Bright Orange)
-  Light Background : #FFF8F5
+  Primary Color    : #1B365D (Navy Blue)
+  Secondary Color  : #48A9E0 (Sky Blue)
+  Light Background : #F4F8FC
   Dark Text        : #1D1D27
 
   Favicon Files    : img/favicon.ico, img/favicon.svg, img/favicon-32x32.png,
