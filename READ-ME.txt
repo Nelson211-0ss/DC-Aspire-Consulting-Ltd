@@ -1,0 +1,72 @@
+================================================================================
+  DC-ASPIRE CONSULTING LIMITED — WEBSITE
+================================================================================
+
+  Company          : DC-Aspire Consulting Limited
+  Location         : Juba, South Sudan
+  Email            : dc.aspireconsulting@gmail.com
+  Phone            : +211 921 701 634
+
+--------------------------------------------------------------------------------
+  ABOUT THE COMPANY
+--------------------------------------------------------------------------------
+
+  DC-Aspire Consulting Limited is a multidisciplinary consultancy firm
+  providing integrated solutions in:
+
+    • Research, Monitoring, Evaluation, Accountability and Learning (MEAL)
+    • Financial Auditing and Advisory Services
+    • Information Technology (IT) Solutions
+    • Training and Capacity Building
+
+  The firm serves NGOs, government institutions, donors, private sector
+  organizations, and academic institutions across South Sudan and East Africa.
+
+--------------------------------------------------------------------------------
+  WEBSITE PAGES
+--------------------------------------------------------------------------------
+
+  index.html    — Home page (overview, services, projects, contact)
+  about.html    — Company profile, mission, vision, values, competencies
+  service.html  — Detailed core service areas
+  project.html  — Recent assignments and project gallery
+  contact.html  — Contact form and office details
+
+--------------------------------------------------------------------------------
+  DESIGN & THEME
+--------------------------------------------------------------------------------
+
+  Primary Color    : #E65100 (Deep Orange)
+  Secondary Color  : #FF9800 (Bright Orange)
+  Light Background : #FFF8F5
+  Dark Text        : #1D1D27
+
+  Favicon Files    : img/favicon.ico, img/favicon.svg, img/favicon-32x32.png,
+                     img/apple-touch-icon.png
+
+  Stylesheets:
+    css/bootstrap.min.css  — Bootstrap 5 framework (custom orange theme)
+    css/style.css          — Custom layout, navbar, and component styles
+
+--------------------------------------------------------------------------------
+  HOW TO VIEW LOCALLY
+--------------------------------------------------------------------------------
+
+  1. Open index.html directly in a web browser, or
+  2. Run a local server from this folder:
+
+       python3 -m http.server 8080
+
+     Then visit: http://localhost:8080
+
+--------------------------------------------------------------------------------
+  ORIGINAL TEMPLATE CREDIT
+--------------------------------------------------------------------------------
+
+  Template Name  : SEO Master - SEO Agency Website Template
+  Template Author: HTML Codex (https://htmlcodex.com)
+  License        : See LICENSE.txt
+
+  Customized for DC-Aspire Consulting Limited.
+
+================================================================================
